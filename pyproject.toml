@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dodgem-game"
+version = "1.0.0"
+description = "Play and analyze the Dodgem game with CLI/GUI using an evaluation database"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = []
+keywords = ["game", "ai", "search", "mongodb", "board-game", "dodgem"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Games/Entertainment",
+]
+dependencies = [
+  "pymongo>=4",
+]
+
+[project.urls]
+Homepage = "https://sekika.github.io/dodgem/"
+Documentation = "https://sekika.github.io/dodgem-py/"
+Source = "https://github.com/sekika/dodgem-py"
+
+[project.scripts]
+dodgem = "dodgem.__main__:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+dodgem = ["dodgem_eval.json.gz"]
