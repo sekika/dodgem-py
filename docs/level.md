@@ -38,7 +38,15 @@ To assess strength, we ran a round-robin league among Dodgem CPU levels L1–L4.
 
 ### 5x5 board
 
-Calculation in progress
+| First \ Second | L1       | L2       | L3        | L4        |
+|----------------|----------|----------|-----------|-----------|
+| L1             | 57-43-0  | 42-57-1  | 28-61-11  | 0-59-41   |
+| L2             | 69-29-2  | 67-31-2  | 38-50-12  | 0-40-60   |
+| L3             | 81-13-6  | 80-15-5  | 56-26-18  | 0-34-66   |
+| L4             | 78-0-22  | 69-0-31  | 65-0-35   | 0-0-100   |
+
+- L4 did not lose a single match, demonstrating perfect play.
+- L3 is far from perfect play, because the complete evaluation database for 5×5 is enormous (164 million positions), while L3 uses only a small fraction (0.5%) of it.
 
 ## Code
 
