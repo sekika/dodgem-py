@@ -84,3 +84,5 @@ See https://sekika.github.io/dodgem-py/
 - Game rules, API reference, configuration
 - Evalmap format, MongoDB database details
 - CPU levels, FAQ
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sekika/dodgem-py)

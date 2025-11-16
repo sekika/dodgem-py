@@ -36,3 +36,5 @@ Dodgem is a Python package for playing and analyzing the board game **Dodgem**. 
 - Berlekamp, Elwyn R.; Conway, John Horton; Guy, Richard K. (2003), “Dodgem,” Winning Ways for your Mathematical Plays, vol. 3 (2nd ed.), A.K. Peters, pp. 749–750, ISBN 978-1-56881-143-7.
 - [Discussion thread, rec.games.abstract (1996)](https://ics.uci.edu/~eppstein/cgt/dodgem.html). David desJardins created win–loss tables for 4×4 and 5×5, concluding they are draws.
 - [Wikipedia article](https://en.wikipedia.org/wiki/Dodgem)
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sekika/dodgem-py)
