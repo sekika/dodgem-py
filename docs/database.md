@@ -70,9 +70,13 @@ This program connects to the MongoDB server specified by the `mongo_server` sett
 - Creating databases for all board sizes (n=3, 4, 5) requires 14 GB of disk space.
 
 ## Download
-The complete database dump is available as a [compressed archive](https://seki.jpn.org/dodgem/dodgem-mongodump.tar.gz) (2.8 GB). You can download and import it into your MongoDB instance with the following commands:
+The complete database dump is available as a compressed archive (2.8 GB) at:
+
+Seki, K. (2025). Perfect-Play Databases for Dodgem on 3×3, 4×4, and 5×5 Boards (MongoDB Dump) (1.0.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17687222](https://doi.org/10.5281/zenodo.17687222)
+
+You can download and import it into your MongoDB instance with the following commands:
 ```
-wget https://seki.jpn.org/dodgem/dodgem-mongodump.tar.gz
+wget https://zenodo.org/records/17687222/files/dodgem-mongodump.tar.gz
 tar xfvz dodgem-mongodump.tar.gz
 mongorestore --drop mongodump
 ```

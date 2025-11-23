@@ -48,7 +48,7 @@ dodgem --gui
 ```
 
 ## About the data
-- The MongoDB evaluation database is computed offline by a nearly perfect analysis.
+- The MongoDB evaluation database is computed offline by a nearly perfect analysis, downloadable at: Seki, K. (2025). [Perfect-Play Databases for Dodgem on 3×3, 4×4, and 5×5 Boards (MongoDB Dump)](https://doi.org/10.5281/zenodo.17687222) (1.0.0) [Data set]. Zenodo.
 - The evalmap (JSON.GZ) is a curated subset of that MongoDB database, packaged for fast lookup without MongoDB.
 
 The evalmap produced by this package is used by the online Dodgem page. The online version uses only the evalmap subset (no MongoDB), so it supports CPU levels 1–3. Level 4 (MongoDB-backed) is available in the local CLI/GUI.
